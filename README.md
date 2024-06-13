@@ -1,4 +1,4 @@
-# github-selfpetitionusa
+# Successful EB2 NIW Advanced Degree Journey
 
 ## Project setup
 ```
