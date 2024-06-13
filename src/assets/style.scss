@@ -3,12 +3,6 @@ $white-color: #ffffff;
 $black-color: #0e314c;
 $navlink-color: #4a6f8a;
 $paragraph-color: #6084a4;
-$purple-color: #c679e3;
-$bg-color: #f7fafd;
-$bg-color2: #f9f6f6;
-$hosting-main-color: #032b8d;
-$gradient-color: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
-$gradient-color2: linear-gradient(to right bottom, #1fa2ff, #00c0ff, #00d9f2, #53eedd, #a6ffcb);
 $transition: .5s;
 
 body {
@@ -128,4 +122,69 @@ Navbar CSS
             margin-left: 20px;
         }
     }
+}
+
+.copyright-area {
+    margin-top: 80px;
+    padding: {
+        top: 25px;
+        bottom: 25px;
+    }
+    border-top: 1px solid #d8ebfd;
+    text-align: center;
+}
+
+.link {
+    font-weight: 600; 
+    color: #ff4e00; 
+    text-decoration: underline
+}
+
+.link:hover, .link:focus, .link.active {
+    color: $light-green-color;
+    transition: $transition;
+}
+
+.box {
+    padding: 15px 12px;
+    border-radius: 3px;
+    background-color: $white-color;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    margin-bottom: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: $transition;
+
+    &:hover, &:focus, &.active {
+        color: $light-green-color;
+    }
+}
+
+.description {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+    div {
+        margin-bottom: 5px;
+    }
+}
+
+a.box {
+    display: block; /* Ensures the link fills the entire div area */
+    padding: 15px 12px;
+    border-radius: 3px;
+    background-color: $white-color;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    margin-bottom: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: $transition;
+    color: $black-color; /* Default color for the text */
+    text-decoration: none; /* Removes underline from links */
+}
+
+a.box:hover, a.box:focus, a.box.active {
+    color: $light-green-color;
+    text-decoration: none; /* Keeps the text decoration none even on hover */
 }

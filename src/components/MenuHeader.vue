@@ -21,7 +21,7 @@
                             <a href="/" v-scroll-to="'#timeline'" class="nav-link">Timeline</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/" v-scroll-to="'#selfPetitionUsa'" class="nav-link">Apply Our Insights</a>
+                            <a href="/" v-scroll-to="'#selfPetitionUsa'" class="nav-link">🇺🇸 Apply Our Insights</a>
                         </li>
                     </ul>
                 </b-collapse>

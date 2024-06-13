@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 style="text-align: center">Timeline</h1>
+    <h1 style="text-align: center">EB-2 NIW Timeline</h1>
 
     <div class="row">
       <div class="col-lg-4">
@@ -49,10 +49,6 @@
         <ul class="features-list">
             <li><vue-feather type="check"></vue-feather>Received green card</li>
         </ul>    
-      </div>
-
-      <div class="col-lg-3" style="display: flex; align-items: flex-end">
-        <img style="width: 70%" src="../assets/resources/aiGenerated.svg" />
       </div>
 
       <div class="col-12" style="margin-top: 2rem">
