@@ -47,10 +47,10 @@ export default {
             // eslint-disable-next-line no-console
             if(scrollPos >= 100){
                 that.isSticky = true;
-                console.log("isSticky: " + this.isSticky)
+                //console.log("isSticky: " + this.isSticky)
             } else {
                 that.isSticky = false;
-                console.log("isSticky: " + this.isSticky)
+                //console.log("isSticky: " + this.isSticky)
             }
         })
     }
