@@ -1,7 +1,7 @@
 <template>
   <div id="myStory" class="container" style="margin-top: 5rem">
     <h1>EB-2 NIW Success Story</h1>
-    <div class="row">
+    <div class="row" style="margin-top: 2rem">
       <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12">
         <p>Our journey as a European family relocating to the US with an existing employer was driven by one overarching goal: obtaining a green card, the key to realizing the American dream.</p>
         <p>For us, the green card represented more than just legal residency; it symbolized <span style="font-weight: 600">freedom</span> — the freedom to <span style="font-weight: 600">live and work in the US independently</span>, <span style="font-weight: 600">without the constraints of visa</span> renewals, <span style="font-weight: 600">employer sponsorship</span>, and the <span style="font-weight: 600">risk of layoff</span>.</p>
