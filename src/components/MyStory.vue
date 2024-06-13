@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="margin-top: 5rem">
+  <div id="myStory" class="container" style="margin-top: 5rem">
     <h1>EB-2 NIW Success Story</h1>
     <div class="row">
       <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12">

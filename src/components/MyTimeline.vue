@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="timeline" class="container">
     <h1 style="text-align: center">EB-2 NIW Timeline</h1>
 
     <div class="row">
