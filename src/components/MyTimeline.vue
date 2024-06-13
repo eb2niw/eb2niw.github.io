@@ -3,7 +3,7 @@
     <h1 style="text-align: center">EB-2 NIW Timeline</h1>
 
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-8 offset-2" style="display: flex; justify-content: center; align-items: center;">
         <img style="width: 100%" src="../assets/resources/greenStamp.webp" />
       </div>
 

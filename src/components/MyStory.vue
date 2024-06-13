@@ -10,7 +10,7 @@
         <p>After nine months of anticipation, our perseverance paid off when we finally <span style="font-weight: 600">received our green card</span>.</p>
         <p>Our journey inspired us to create <a href="https://www.selfpetitionusa.com" class="link">Self Petition USA</a>, a platform offering <span style="font-weight: 600">EB-2 NIW Advanced Degree templates</span> for various professions, including our successful non-RFE petition. We started with <a href="https://www.selfpetitionusa.com/#starterKitProfessions" class="link">Starter Kit</a> templates that users can personalize, and later introduced <a href="https://www.selfpetitionusa.com/ai" class="link">Selfpetition AI</a>. This artificial intelligence tool is designed to generate well-organized I-140 cover letters, complete with a proposed appendix list, and corresponding reference letters that are tailored to your unique background, thus eliminating the need for manual drafting.</p>
       </div>
-      <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-8" style="display: flex; align-items:">
+      <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-10 offset-sm-0 offset-1" style="display: flex; align-items:">
         <div class="row" style="border-radius: 50%; border: 2px solid; border-color: #ff4e00;">
           <img class="col-12" src="../assets/resources/family.webp" style="margin-left: 1rem; width: 100%; border-radius: 50%; border: 2px solid; border-color: #44ce6f; box-shadow: 10px 20px 20px 0px rgba(255, 78, 0, .1)" alt="eb2 niw sample"/>
         </div>

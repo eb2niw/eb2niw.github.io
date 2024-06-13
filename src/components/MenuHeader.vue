@@ -9,7 +9,7 @@
 
                 <b-navbar-toggle target="navbarSupportedContent"></b-navbar-toggle>
 
-                <b-collapse class="collapse navbar-collapse mean-menu" is-nav>
+                <b-collapse id="navbarSupportedContent" class="collapse navbar-collapse mean-menu" is-nav>
                     <ul class="navbar-nav nav ml-auto">
                         <li class="nav-item">
                             <a href="/" v-scroll-to="'#home'" class="nav-link">Home</a>

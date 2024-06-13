@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     
-    <div style="display: flex; justify-content: center">
-      <h1 style="text-align: center">Apply Our Insights</h1>
-      <img height="50px" src="../assets/resources/flag.png" style="margin-left: 5px"/>
+    <div style="display: flex; justify-content: center;">
+      <h1>Apply Our Insights</h1>
+      <img height="50px" src="../assets/resources/flag.png" style="margin-left: 5px;"/>
     </div>
 
-    <div class="row" style="padding-top: 3rem">                       
-      <div class="col-6">
+    <div class="row" style="padding-top: 2rem">                       
+      <div class="col-sm-6 col-12" style="margin-top: 1rem">
         <h5 style="font-weight: 600; margin-bottom: 8px">FAQ</h5>
         <div style="margin-bottom: 20px">The most common questions. Read more <a href="https://www.selfpetitionusa.com/faq" class="link">HERE</a></div>
           <div class="box" v-on:click="faqToggle('one')">1. Disclaimer<i class="fa fa-circle-plus" style="margin-left: 8px"></i></div>
@@ -191,7 +191,7 @@
             </div>
       </div>
 
-      <div class="col-6">
+      <div class="col-sm-6 col-12" style="margin-top: 1rem">
         <h5 style="font-weight: 600; margin-bottom: 8px">BLOG</h5>
         <div style="margin-bottom: 20px">The most popular success stories. Read more <a href="https://www.selfpetitionusa.com/blog/1" class="link">HERE</a></div>
           <a href="https://www.selfpetitionusa.com/success-story-software-engineer-2" class="box">1. EB-2 NIW approval for software engineer <i class="fa fa-arrow-up-right-from-square" style="margin-left: 8px"></i></a>

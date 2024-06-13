@@ -19,12 +19,18 @@ h1 {
     margin-bottom: 2rem;
 }
 
+@media (max-width: 575px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
 p {
     margin-bottom: 10px;
 }
 
 .container {
-    padding: 4rem 0px;
+    padding: 4rem 15px;
 }
 
 /*================================================
