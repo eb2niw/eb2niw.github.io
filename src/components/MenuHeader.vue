@@ -7,9 +7,9 @@
                     <img width="40px" src="../assets/resources/myImage.png" alt="eb2 niw"/>
                 </a>
 
-                <b-navbar-toggle target="navbarSupportedContent"></b-navbar-toggle>
+                <BNavbarToggle target="navbarSupportedContent"></BNavbarToggle>
 
-                <b-collapse id="navbarSupportedContent" class="collapse navbar-collapse mean-menu" is-nav>
+                <BCollapse id="navbarSupportedContent" class="collapse navbar-collapse mean-menu" is-nav>
                     <ul class="navbar-nav nav ml-auto">
                         <li class="nav-item">
                             <a href="/" v-scroll-to="'#myStory'" class="nav-link">About Us</a>
@@ -21,17 +21,23 @@
                             <a href="/" v-scroll-to="'#selfPetitionUsa'" class="nav-link">🇺🇸 Apply Our Insights</a>
                         </li>
                     </ul>
-                </b-collapse>
+                </BCollapse>
             </nav>
 
         </div>
     </header>
 </template>
 
+
 <script>
+import { BNavbarToggle, BCollapse } from 'bootstrap-vue-next';
 
 export default {
     name: 'MenuHeader',
+    components: {
+      BNavbarToggle,
+      BCollapse
+    },
     data(){
         return {
             isSticky: false,
@@ -44,10 +50,8 @@ export default {
             // eslint-disable-next-line no-console
             if(scrollPos >= 100){
                 that.isSticky = true;
-                //console.log("isSticky: " + this.isSticky)
             } else {
                 that.isSticky = false;
-                //console.log("isSticky: " + this.isSticky)
             }
         })
     }
