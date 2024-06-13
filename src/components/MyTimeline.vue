@@ -3,11 +3,11 @@
     <h1 style="text-align: center">EB-2 NIW Timeline</h1>
 
     <div class="row">
-      <div class="col-lg-4 col-8 offset-2" style="display: flex; justify-content: center; align-items: center;">
+      <div class="col-lg-4 col-8 offset-lg-0 offset-2" style="display: flex; justify-content: center; align-items: center;">
         <img style="width: 100%" src="../assets/resources/greenStamp.webp" />
       </div>
 
-      <div class="col-lg-5"> 
+      <div class="col-lg-5 col-sm-8 offset-lg-0 offset-sm-2"> 
         <h6 style="margin-bottom: 2rem; font-weight: 600">We submitted our application through concurrent filing:</h6>
 
         <h6 style="font-weight: 600">10-14-2019 (received date) 10-22-2019 (notice date)</h6>
