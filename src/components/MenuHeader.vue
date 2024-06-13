@@ -3,7 +3,7 @@
         <div class="startp-nav">
 
             <nav class="navbar navbar-expand navbar-light">
-                <a href="/" v-scroll-to="'#home'">
+                <a href="/" v-scroll-to="'#myStory'">
                     <img width="40px" src="../assets/resources/myImage.png" alt="eb2 niw"/>
                 </a>
 
@@ -11,9 +11,6 @@
 
                 <b-collapse id="navbarSupportedContent" class="collapse navbar-collapse mean-menu" is-nav>
                     <ul class="navbar-nav nav ml-auto">
-                        <li class="nav-item">
-                            <a href="/" v-scroll-to="'#'" class="nav-link">Home</a>
-                        </li>
                         <li class="nav-item">
                             <a href="/" v-scroll-to="'#myStory'" class="nav-link">About Us</a>
                         </li>
