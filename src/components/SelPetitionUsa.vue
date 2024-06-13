@@ -253,7 +253,12 @@ export default {
   },
   methods: {
     faqToggle(faqNumber) {
-      this.descriptionVisible[faqNumber] = !this.descriptionVisible[faqNumber];
+      // First, set all entries to false
+      Object.keys(this.descriptionVisible).forEach(key => {
+        this.descriptionVisible[key] = false;
+      });
+      // Then toggle the clicked section to true
+      this.descriptionVisible[faqNumber] = true;
     }
   }
 }
