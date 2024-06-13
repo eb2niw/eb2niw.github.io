@@ -253,12 +253,15 @@ export default {
   },
   methods: {
     faqToggle(faqNumber) {
-      // First, set all entries to false
+      // Toggle the current state of the clicked FAQ number.
+      this.descriptionVisible[faqNumber] = !this.descriptionVisible[faqNumber];
+
+      // Set all other entries to false if the current is set to true.
       Object.keys(this.descriptionVisible).forEach(key => {
-        this.descriptionVisible[key] = false;
+        if (key !== faqNumber) {
+          this.descriptionVisible[key] = false;
+        }
       });
-      // Then toggle the clicked section to true
-      this.descriptionVisible[faqNumber] = true;
     }
   }
 }
